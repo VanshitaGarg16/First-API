@@ -17,5 +17,5 @@ app.use(express.json())
 const subscribersRouter = require("./routes/subscribers")
 app.use("/subscribers", subscribersRouter)
 
-//Port Setup
+//Port Setup with 3000
 app.listen(3000, () => console.log("Port is Listening"))
